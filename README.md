@@ -4,58 +4,48 @@
   <img alt="Abhi Rama Mekala — Generative AI Engineer. LLMs, RAG, agentic systems, multimodal pipelines." src="assets/header-light.svg" width="100%">
 </picture>
 
-<p>
-  <a href="https://abhirama.tech/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-abhirama.tech-111111?style=flat-square&logo=googlechrome&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/abhirama-mekala/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-abhirama--mekala-111111?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:abhirama.mekala@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-abhirama.mekala%40gmail.com-111111?style=flat-square&logo=gmail&logoColor=white"></a>
-  <img alt="Open to work" src="https://img.shields.io/badge/Status-open%20to%20full--time%20%26%20internships-555555?style=flat-square">
+<p align="center">
+  <a href="https://abhirama.tech/"><b>abhirama.tech</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/abhirama-mekala/"><b>LinkedIn</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:abhirama.mekala@gmail.com"><b>abhirama.mekala@gmail.com</b></a>
 </p>
 
-I build AI systems that hold up outside a notebook: retrieval pipelines with guardrails and tracing, agents that call real tools over MCP, and multimodal generators that check their own output before shipping it.
+## About
 
-Most recently I was an **AI/ML Intern (AI in Healthcare) at WeKan Enterprise Solutions**, building and evaluating machine-learning solutions for healthcare problems with a cross-functional team. Before that, I co-authored an **IEEE paper** on an IoT smart helmet for worker safety.
+I build AI systems that hold up outside a notebook: retrieval pipelines with guardrails and tracing, agents that call real tools over MCP, and multimodal generators that check their own work before they ship it.
 
-<br>
+I recently finished an **AI/ML internship at WeKan Enterprise Solutions**, where I built and evaluated machine-learning solutions for healthcare problems with a cross-functional team. I'm also a co-author of an **IEEE conference paper** on IoT-based worker safety.
 
 ## Selected work
 
-| Project | What it does | Built with |
+| Project | What it does | Stack |
 |:--|:--|:--|
-| **Production RAG Platform** | Retrieval-augmented QA with input/output guardrails and end-to-end observability, so every answer can be traced back to its sources. | Python · LangChain · Qdrant · Langfuse · FastAPI · Docker |
-| **[Agent Toolchain](https://github.com/AbhiramaMekala/agent-toolchain)** | Autonomous multi-agent system where planner and worker agents share tools through the Model Context Protocol. | Python · LangGraph · CrewAI · MCP · FastAPI |
-| **[ContentForge](https://github.com/AbhiramaMekala/ContentForge)** | Multimodal content pipeline: draft → self-critique → refine, with schema-validated outputs for text and images. | Python · FastAPI · OpenAI |
-| **CodeLens AI** | AI-powered analysis of code repositories, using LLMs to explain an unfamiliar codebase. | Python · LLMs · FastAPI |
-| **Medical LLM** | Parameter-efficient fine-tuning of an LLM for the medical domain with LoRA / QLoRA. | Python · PyTorch · LoRA / QLoRA |
-
-<br>
+| **Production RAG Platform** | Question answering over documents, with input/output guardrails and end-to-end tracing so every answer can be traced back to its sources. | Python, LangChain, Qdrant, Langfuse, FastAPI, Docker |
+| **[Agent Toolchain&nbsp;↗](https://github.com/AbhiramaMekala/agent-toolchain)** | An autonomous multi-agent system whose agents share tools through the Model Context Protocol. | Python, LangGraph, CrewAI, MCP, FastAPI |
+| **[ContentForge&nbsp;↗](https://github.com/AbhiramaMekala/ContentForge)** | A multimodal content pipeline that drafts, critiques its own draft and refines it, returning schema-validated text and images. | Python, FastAPI, OpenAI |
+| **CodeLens AI** | AI-powered analysis of code repositories that uses LLMs to explain an unfamiliar codebase. | Python, LLMs, FastAPI |
+| **Medical LLM** | Parameter-efficient fine-tuning of an LLM for the medical domain. | Python, PyTorch, LoRA, QLoRA |
 
 ## Research
 
 **SafeTrack: An IoT-Based Smart Helmet for Real-Time Worker Safety and Emergency Response**<br>
-<sub>Md. Tauseef, Akash Reddy L, <b>Abhi Rama Mekala</b>, Ashwini P · IEEE CISCON 2026, Manipal · <a href="https://doi.org/10.1109/CISCON71603.2026.11709224">DOI 10.1109/CISCON71603.2026.11709224</a></sub>
+Md. Tauseef, Akash Reddy L, <b>Abhi Rama Mekala</b>, Ashwini P<br>
+<sub>2026 Control Instrumentation Systems Conference (CISCON), IEEE, Manipal &nbsp;·&nbsp; <a href="https://doi.org/10.1109/CISCON71603.2026.11709224">doi.org/10.1109/CISCON71603.2026.11709224</a></sub>
 
-`97.2%` GPS localisation  ·  `93.6%` fall detection  ·  `95.4%` air-quality monitoring  ·  `96.5%` LoRa packet delivery over ~1.2 km
-
-<br>
+| GPS localisation | Fall detection | Air-quality monitoring | LoRa delivery (~1.2 km) |
+|:--:|:--:|:--:|:--:|
+| **97.2%** | **93.6%** | **95.4%** | **96.5%** |
 
 ## Toolkit
 
-<table>
-  <tr>
-    <td valign="top" width="25%"><sub><b>GENAI</b></sub><br>LLMs · RAG · LangChain · LangGraph · CrewAI · MCP</td>
-    <td valign="top" width="25%"><sub><b>ML</b></sub><br>PyTorch · fine-tuning (LoRA / QLoRA) · model evaluation</td>
-    <td valign="top" width="25%"><sub><b>BACKEND</b></sub><br>Python · FastAPI · Pydantic · Qdrant</td>
-    <td valign="top" width="25%"><sub><b>OPS</b></sub><br>Docker · Git · Linux · Langfuse · LangSmith</td>
-  </tr>
-</table>
-
-<br>
+**Generative AI** &nbsp; LLMs · RAG · LangChain · LangGraph · CrewAI · Model Context Protocol<br>
+**Machine learning** &nbsp; PyTorch · LoRA / QLoRA fine-tuning · model evaluation<br>
+**Backend** &nbsp; Python · FastAPI · Qdrant<br>
+**Tooling** &nbsp; Docker · Git · Linux · Langfuse · LangSmith
 
 ## Now
 
-- **B.Tech in Electronics & Computer Engineering**, REVA University, Bengaluru — Class of 2026.
-- Looking for **AI/ML, GenAI, Python/backend and embedded** roles anywhere in India, full-time or internship, and able to join immediately.
-
-<br>
-
-<p align="center"><sub>Bengaluru, India · <a href="https://abhirama.tech/">abhirama.tech</a> · <a href="mailto:abhirama.mekala@gmail.com">abhirama.mekala@gmail.com</a></sub></p>
+- **B.Tech, Electronics & Computer Engineering**, REVA University, Bengaluru (Class of 2026)
+- **Open to work:** AI/ML, GenAI, Python/backend and embedded roles across India, full-time or internship; can join immediately
